@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./pages/pages.css">
+    <title>Fidenz</title>
+</head>
+
+<body>
+    <script src="index.js"></script>
+    <div class="head-topic">
+        <span>
+            <img src="./icons/cloudy.png" width="40px" height="40px">
+        </span>
+        <p>Weather App</p>
+    </div>
+    <!-- box a start -->
+    <div class="box a">
+        <!-- box header info  start-->
+
+        <div class="a1-section">
+            <div onclick=" backpage()"> <img src="./icons/back.png" width="20px" height="20px"></div>
+            <div class="container">
+                <div class="location_1">
+                    Liverpool, GB
+                </div>
+
+            </div>
+
+            <div class="container_second">
+                <div class="below-frist">
+
+                    <div class="Weather_mark">
+                        <img src="./icons/sun.png" class="wheather_icon1"  width="40px" height="40px">
+                    </div>
+                    <div>
+                        <span class="climate_1" style="padding-left: 10px;">clear sky</span>
+                    </div>
+
+                </div>
+                <div class="vertical"></div>
+                <div class="below-second">
+                    <div id="mainTemp" class="mainTemp_1">-2 &#8451</div>
+                    <div class="temp">
+                        <div>temp Min: -2 &#8451</div>
+                        <div>temp Max: 5 &#8451</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- box header info  end-->
+        <!-- box common info start-->
+        <div class="common section-a2">
+            <div class="main-below a2-below">
+                <div class="info 1">
+                    <div style="padding: 3px;">pressure :1018hpa </div>
+                    <div style="padding: 3px;">Humidity :78%</div>
+                    <div style="padding: 3px;">visibility ;8.0km</div>
+                </div>
+                <div class="vertical"></div>
+                <div class="info 2">
+                    <div style="justify-content: center; display: flex;">
+                        <img src="./icons/share.png" width="25px" height="25px">
+                    </div>
+                    <div>4.0/ms 120 degree</div>
+                </div>
+                <div class="vertical"></div>
+                <div class="info 3">
+                    <div style="padding: 3px;">Sunrise :6.05am</div>
+                    <div>sunset:6.05am</div>
+                </div>
+            </div>
+        </div> <!-- box common info end-->
+    </div>
+    <footer>
+        <div class="footer">2021 Fidenz Technologies</div>
+    </footer>
+
+</html>
+</body>
+<script>
+
+    //     function pageNavigate()  tab
+    function backpage() {
+        window.location.href = 'index.html';
+    }
+
+
+</script>
+
+</html>

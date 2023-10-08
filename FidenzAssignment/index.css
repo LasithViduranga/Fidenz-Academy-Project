@@ -1,0 +1,191 @@
+body {
+  background-image: url("main.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.head-topic {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font: bold;
+  font-size: 24px;
+}
+.head-topic span img{
+  padding: 20px;
+}
+
+.search-bar {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.text-bar {
+  background-color: black;
+ 
+  padding: 3px;
+  color: #444;
+  border: none;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.add-city {
+  border: none;
+  background-color: rgb(98,73,203);
+  color: white;
+  margin-left: -8px;
+  height: 35px;
+  width: 80px;
+  border-radius: 8px;
+  padding: 2px;
+}
+
+.wrapper {
+  display: grid;
+  width: 50%;
+  margin: auto;
+  grid-template-columns: 1fr 1fr; /* Two columns of equal width */
+  grid-gap: 15px; /* Optional gap between items */
+  color: white;
+  justify-content: center;
+}
+
+.box {
+  width: 400px;
+  height: 250px;
+  border: none;
+  border-radius: 9px;
+  /* Add some spacing between cards */
+  margin: auto;
+}
+
+.a1-section {
+  border-radius: 10px 10px 0 0;
+  height: 55%;
+  background-color: rgb(57, 142, 233);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.b1-section {
+  height: 55%;
+  border-radius: 10px 10px 0 0;
+  background-color: rgb(98,73,203);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.c1-section {
+  height: 55%;
+  border-radius: 10px 10px 0 0;
+  background-color: rgb(64,183,129);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.d1-section {
+  height: 55%;
+  border-radius: 10px 10px 0 0;
+  background-color:rgb(222,147,83) ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.e1-section {
+  height: 55%;
+  border-radius: 10px 10px 0 0;
+  background-color: rgb(156,58,57);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.common {
+  height: 45%;
+  background-color: rgb(56, 58, 71);
+  border: solid rgb(56, 58, 71);
+  border-radius: 0 0 10px 10px;
+}
+.main-below {
+  margin: auto;
+  padding: 10px;
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+
+}
+.below-frist {
+  margin: auto;
+}
+.below-second {
+  margin: auto;
+}
+
+/* below details*/
+#location {
+  font-weight: 600;
+  font-size: large;
+}
+#date {
+  font-size: x-small;
+  padding-top: 10px;
+}
+.Weather_mark {
+  margin: 20px;
+  padding: auto;
+}
+
+#mainTemp {
+  font-size: xx-large;
+  
+}
+.temp {
+  padding-top: 20px;
+  font-size: small;
+}
+
+/*common info */
+
+.info{
+  padding: auto;
+  margin: auto;
+  font-size: small;
+  font-weight: 300;
+ 
+}
+.vertical {
+  border-left: 0.1px solid #fff;
+  height: 40px;
+  
+}
+
+/*footer*/
+
+footer{
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  background-color: rgb(56, 58, 71);
+  width: 100% !important;
+  margin: 0% ;
+  padding: 0%;
+  margin-top: 40px;
+  height: 1cm;
+}
+
+.footer{
+  padding: 10px;
+  color: #fff;
+}
+@media (max-width: 830px) {
+  .wrapper {
+    grid-template-columns: 1fr; /* Two columns of equal width */
+  }
+}

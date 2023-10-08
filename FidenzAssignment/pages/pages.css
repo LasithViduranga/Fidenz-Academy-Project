@@ -1,0 +1,128 @@
+body {
+  background-image: url("main.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.head-topic {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font: bold;
+  font-size: 24px;
+}
+.head-topic span img{
+  padding: 20px;
+}
+
+.box {
+  width: 60%;
+  height: 50%;
+  border: none;
+  border-radius: 9px;
+  /* Add some spacing between cards */
+  margin: auto;
+ 
+}
+
+.a1-section {
+  border-radius: 10px 10px 0 0;
+  height: 55%;
+  background-color: rgb(57, 142, 233);
+  padding: 20px;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: x-large;
+}
+.container_second{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.common {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  background-color: rgb(56, 58, 71);
+  border: solid rgb(56, 58, 71);
+  border-radius: 0 0 10px 10px;
+}
+.main-below {
+  margin: auto;
+  padding: 10px;
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+ 
+
+}
+.below-frist {
+  margin: auto;
+}
+.below-second {
+  margin: auto;
+}
+
+/* below details*/
+
+#date {
+  font-size: x-small;
+  padding-top: 10px;
+}
+.Weather_mark {
+  margin: 20px;
+  padding: auto;
+}
+
+#mainTemp {
+  font-size: xx-large;
+  
+}
+.temp {
+  padding-top: 20px;
+  font-size: small;
+}
+
+/*common info */
+
+.info{
+  margin:0 20px 0 20px ;
+  font-size: small;
+  font-weight: 300;
+ 
+}
+.vertical {
+  border-left: 0.1px solid #fff;
+  height: 80px;
+  
+}
+
+
+/*footer*/
+
+footer{
+ 
+  background-color: rgb(56, 58, 71);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+
+}
+
+
+@media (max-width: 830px) {
+  .box {
+    grid-template-columns: 1fr; /* Two columns of equal width */
+  }
+}
